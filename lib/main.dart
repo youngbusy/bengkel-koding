@@ -138,7 +138,7 @@ class HomePage extends StatelessWidget {
                     color: Colors.orange.shade200,
                     borderRadius: BorderRadius.circular(5),
                   ),
-                  child: Text('list item ${index + 1}'),
+                  child: Text('paket ramadhan ${index + 1}'),
                 );
               }),
             ),
@@ -155,7 +155,7 @@ class HomePage extends StatelessWidget {
                     borderRadius: BorderRadius.circular(5),
                   ),
                   child: Center(
-                    child: Text('grid item ${index + 1}', style: const TextStyle(color: Colors.white)),
+                    child: Text('doorprize ${index + 1}', style: const TextStyle(color: Colors.white)),
                   ),
                 );
               }),
